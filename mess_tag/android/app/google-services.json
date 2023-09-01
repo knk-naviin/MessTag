@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "832268093680",
+    "project_id": "messtag-001",
+    "storage_bucket": "messtag-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832268093680:android:6304dd444d330712a89a35",
+        "android_client_info": {
+          "package_name": "com.kce.mess_tag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832268093680-66covi248oc3ef1oe9f6h4ct9d946ao8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2oF5lCEADuYVoO84MfGnBQpAcfQzKvC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832268093680-66covi248oc3ef1oe9f6h4ct9d946ao8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

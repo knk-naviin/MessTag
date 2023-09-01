@@ -1,0 +1,28 @@
+[debug] [2023-09-01T04:31:25.817Z] ----------------------------------------------------------------------
+[debug] [2023-09-01T04:31:25.819Z] Command:       /usr/local/bin/firebase /Users/naveenkumark/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase projects:list
+[debug] [2023-09-01T04:31:25.821Z] CLI Version:   12.5.2
+[debug] [2023-09-01T04:31:25.822Z] Platform:      darwin
+[debug] [2023-09-01T04:31:25.822Z] Node Version:  v16.16.0
+[debug] [2023-09-01T04:31:25.828Z] Time:          Fri Sep 01 2023 10:01:25 GMT+0530 (India Standard Time)
+[debug] [2023-09-01T04:31:25.828Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-01T04:31:25.845Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-01T04:31:25.848Z] > authorizing via signed-in user (kn434552@gmail.com)
+[debug] [2023-09-01T04:31:25.859Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2023-09-01T04:31:33.772Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-09-01T04:31:33.776Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] ┌──────────────────────┬─────────────┬────────────────┬──────────────────────┐
+│ Project Display Name │ Project ID  │ Project Number │ Resource Location ID │
+├──────────────────────┼─────────────┼────────────────┼──────────────────────┤
+│ helo-notes           │ helo-notes  │ 739315376578   │ us-central           │
+├──────────────────────┼─────────────┼────────────────┼──────────────────────┤
+│ MessTag              │ messtag-001 │ 832268093680   │ [Not specified]      │
+└──────────────────────┴─────────────┴────────────────┴──────────────────────┘
+[info] 
+[info] 2 project(s) total.
+[debug] [2023-09-01T04:31:43.826Z] Error: Timed out.
+    at Timeout._onTimeout (/Users/naveenkumark/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/utils.js:254:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
